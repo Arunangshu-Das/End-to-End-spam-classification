@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
 from sklearn.naive_bayes import MultinomialNB
 import pickle
-client = MongoClient('mongodb+srv://arunangshudas:kumkumdi@cluster0.pcgl6xx.mongodb.net/?retryWrites=true&w=majority')
+client = MongoClient('url')
 db = client['End_to_End_spam_classification']
 collection = db['dataset']
 data = list(collection.find())
