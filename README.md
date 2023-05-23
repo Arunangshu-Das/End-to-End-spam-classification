@@ -22,7 +22,7 @@ pip install pymongo pandas nltk scikit-learn
 
 ```bash
 git clone https://github.com/Arunangshu-Das/End-to-End-spam-classification.git
-cd your-repo
+cd End-to-End-spam-classification
 ```
 
 2. Install the required dependencies.
@@ -30,7 +30,7 @@ cd your-repo
 3. Update the MongoDB connection string:
    - Open the script file `spam_classification.py`.
    - Locate the line containing the `MongoClient` connection creation.
-   - Replace `'mongodb+srv://arunangshudas:kumkumdi@cluster0.pcgl6xx.mongodb.net/?retryWrites=true&w=majority'` with your own MongoDB connection string.
+   - Replace `url` with your own MongoDB connection string.
 
 4. Run the script:
 
