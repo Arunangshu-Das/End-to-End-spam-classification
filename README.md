@@ -9,6 +9,7 @@ This repository contains code for training and saving two Naive Bayes models (Ga
 - pandas
 - nltk
 - scikit-learn
+```
 
 Install the required packages using the following command:
 
