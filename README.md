@@ -46,7 +46,6 @@ The script will connect to the specified MongoDB database, retrieve the spam cla
 - `spam_classification.py`: Python script containing the code for training and saving the models.
 - `GaussianNB.pkl`: Serialized file containing the trained GaussianNB model.
 - `MultinomialNB.pkl`: Serialized file containing the trained MultinomialNB model.
-- `README.md`: This file.
 
 Feel free to explore and modify the code according to your needs. Happy spam classification!
 ```
@@ -54,5 +53,3 @@ Feel free to explore and modify the code according to your needs. Happy spam cla
 Update the MongoDB connection string in the script to match your own database.
 
 Make sure to include the `GaussianNB.pkl`, `MultinomialNB.pkl`, and `README.md` files in the same directory as the `spam_classification.py` script.
-
-Feel free to customize the README file further based on your specific requirements and additional details you want to provide.
