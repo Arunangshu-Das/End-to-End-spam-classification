@@ -1,9 +1,9 @@
 # Spam Classification Model using Naive Bayes
-```
+
 This repository contains code for training and saving two Naive Bayes models (GaussianNB and MultinomialNB) for spam classification. The models are trained on a dataset stored in a MongoDB database. The text data is preprocessed using NLTK, and the models are serialized using the pickle library.
 
 ## Requirements
-
+```
 - Python 3.x
 - pymongo
 - pandas
